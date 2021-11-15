@@ -1,5 +1,7 @@
 # A Java/Maven/JUnit HelloWorld example
 
+"Weekend batch "
+
 A „Hello World!” sample written in Java using Maven for the build, that showcases a few very simple tests.
 
 This example demonstrates:
@@ -12,8 +14,7 @@ This example demonstrates:
 
 ## Running the tests
 
-* To run the unit tests, call `mvn test`
-* To run the integration tests as well, call `mvn verify`
+
 * Code coverage reports are generated when `mvn verify` (or a full `mvn clean install`) is called.
   Point a browser at the output in `target/site/jacoco-both/index.html` to see the report.
 
